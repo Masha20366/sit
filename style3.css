@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: black; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Amarante; 
+
+ }
+ nav {
+    background-image: linear-gradient(to right, #00AAAA, #0aff99);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+footer {
+   background-color: black; 
+   color: white;
+}
+nav a:hover{
+    background-color:aqua;
+    border: solid 2px black;
+    transition: 1s linear;
+}
+nav a {
+    margin: 60px;
+    position: relative;
+}
+nav {
+    border-top: dashed 4px white;
+    justify-content: first baseline;
+}
+aside {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    color: black; 
+    background-image: linear-gradient(#0085FF, #15cc8f);
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+.afisa {
+    width: 180px;
+    height: 260px;
+    padding: 10px;
+    justify-content: first baseline;
+    opacity: 0.6;
+}
+.afisa:hover {
+    width: 190px;
+    height: 270px;
+    padding: 10px;
+    justify-content: first baseline;
+    opacity: 1;
+    border: double 1px #0aff99;
+}
