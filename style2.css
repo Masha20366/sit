@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: black; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Amarante;
+}
+nav {
+    background-image: linear-gradient(to right, #00AAAA, #0aff99);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    justify-content: first baseline; 
+
+}
+
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: 190px;
+    border-radius: 30px;
+}
+ aside {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    color: black; 
+    background-image: linear-gradient(#0085FF, #15cc8f);
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+.kk {
+    top: 200px;
+    position: absolute;
+    border: solid 3px #0085FF;
+}
+.hed {
+    position: relative;
+    left: 225px;
+    top: 0px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white; 
+}
+.text {
+    position: relative;
+    left: 215px;
+    top: 0px;
+    color: white; 
+}
+.text2 {
+    position: relative;
+    left: 215px;
+    top: 0px;
+   color: white; 
+}
+.h {
+    position: relative;
+    left: 230px;
+    top: 0px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white; 
+}
+.lo {
+    top: 700px;
+    position: absolute;
+    border: solid 3px #0085FF;
+}
+.tt {
+    top: 1230px;
+    position: absolute;  
+    border: solid 3px #0085FF;
+}
+.ut {
+    position: relative;
+    left: 235px;
+    top: 0px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white; 
+}
+.text3 {
+    position: relative;
+    left: 230px;
+    top: 0px;
+   color: white; 
+}
+footer {
+   background-color: black; 
+   color: white;
+}
+nav a:hover{
+    background-color:aqua;
+    border: solid 2px black;
+    transition: 1s linear;
+}
+nav a {
+    margin: 60px;
+    position: relative;
+}
+nav {
+    border-top: dashed 4px white;
+
+}
+.gg{
+    border: solid 2px black;
+}
+.gk {
+    border: solid 2px black;
+}
+.gd {
+    border: solid 2px black;
+}
+.vv {
+    color: white;
+    text-align: center;
+    font-family: Amarante; 
+}
+.rr {
+    background-color: #15cc8f;
+    color: black;
+    border-radius: 20px; 
+    padding: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.rr:hover {
+    transition: 2s linear;
+}
